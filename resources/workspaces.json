@@ -1,0 +1,49 @@
+[
+  {
+    "id": "Prova1",
+    "name": "Test Workspace",
+    "channelsList": [
+      "idrandomprova",
+      "idgeneraleprova"
+    ],
+    "usersList": [
+      "nellotaver@gmail.com",
+      "test@test.test",
+      "andrea@hakimi.it",
+      "maestro@gskianto.na"
+    ]
+  },
+  {
+    "id": "VRMNGEw3uYkgQfufAW8BFb",
+    "name": "secondWorkspace",
+    "channelsList": [
+      "NwURErP5VjMgyDELmUCy8V",
+      "D2SZLG1dfHn9SZEr88KaLf"
+    ],
+    "usersList": [
+      "panetty@gmail.com"
+    ]
+  },
+  {
+    "id": "VfuvFyLpm6HoPP1Bp99Z9N",
+    "name": "Happy Hippo Freestyle",
+    "channelsList": [
+      "6HDpiA1Xnhuj9xz7utkF9S",
+      "9xZSha8KT9FEQnmY79AM9k"
+    ],
+    "usersList": [
+      "nellotaver@gmail.com"
+    ]
+  },
+  {
+    "id": "U6z9aQb49BSewtrxqAejUL",
+    "name": "Equitalia Freestyle",
+    "channelsList": [
+      "88eQvmVh7bVJVFSEAdZ5yk",
+      "MC19r6m8utaT9HgkisRuJw"
+    ],
+    "usersList": [
+      "nellotaver@gmail.com"
+    ]
+  }
+]

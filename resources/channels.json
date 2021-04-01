@@ -1,0 +1,93 @@
+[
+  {
+    "id": "idrandomprova",
+    "name": "random",
+    "private": false,
+    "usersList": [
+      "nellotaver@gmail.com",
+      "test@test.test",
+      "andrea@hakimi.it",
+      "maestro@gskianto.na",
+      "nellotaver@gmail.com"
+    ],
+    "messagesList": [
+      "DSwVZpaShbRvgT8auVTZ1y"
+    ]
+  },
+  {
+    "id": "idgeneraleprova",
+    "name": "generale",
+    "private": false,
+    "usersList": [
+      "nellotaver@gmail.com",
+      "test@test.test",
+      "andrea@hakimi.it",
+      "maestro@gskianto.na",
+      "nellotaver@gmail.com"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "NwURErP5VjMgyDELmUCy8V",
+    "name": "random",
+    "private": false,
+    "usersList": [
+      "panetty@gmail.com"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "D2SZLG1dfHn9SZEr88KaLf",
+    "name": "generale",
+    "private": false,
+    "usersList": [
+      "panetty@gmail.com"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "6HDpiA1Xnhuj9xz7utkF9S",
+    "name": "random",
+    "private": false,
+    "usersList": [
+      "nellotaver@gmail.com"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "9xZSha8KT9FEQnmY79AM9k",
+    "name": "generale",
+    "private": false,
+    "usersList": [
+      "nellotaver@gmail.com"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "88eQvmVh7bVJVFSEAdZ5yk",
+    "name": "Random",
+    "private": false,
+    "usersList": [
+      "nellotaver@gmail.com"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "MC19r6m8utaT9HgkisRuJw",
+    "name": "General",
+    "private": false,
+    "usersList": [
+      "nellotaver@gmail.com"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "idcanaleprivato",
+    "name": "Test canale privato",
+    "private": true,
+    "usersList": [
+      "nellotaver@gmail.com"
+    ],
+    "messagesList": []
+  }
+]

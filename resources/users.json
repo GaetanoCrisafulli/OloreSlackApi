@@ -1,0 +1,45 @@
+[
+  {
+    "token": "9Giec8p7JuBYu3e5Qux58h",
+    "email": "nellotaver@gmail.com",
+    "username": "NelloTaver",
+    "password": "tavernello",
+    "workspacesList": [
+      "Prova1"
+    ]
+  },
+  {
+    "token": "",
+    "email": "panetty@gmail.com",
+    "username": "Panetty",
+    "password": "stomentendo",
+    "workspacesList": [
+      "VRMNGEw3uYkgQfufAW8BFb"
+    ]
+  },
+  {
+    "token": "",
+    "email": "test@test.test",
+    "username": "Test",
+    "password": "test",
+    "workspacesList": []
+  },
+  {
+    "token": "",
+    "email": "maestro@gskianto.na",
+    "username": "Gskianto",
+    "password": "entronelparchetto",
+    "workspacesList": [
+      "Prova1"
+    ]
+  },
+  {
+    "token": "",
+    "email": "andrea@hakimi.it",
+    "username": "Homyatol",
+    "password": "modificati",
+    "workspacesList": [
+      "Prova1"
+    ]
+  }
+]
