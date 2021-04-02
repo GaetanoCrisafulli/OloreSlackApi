@@ -28,13 +28,14 @@ const options: cors.CorsOptions = {
     origin: "http://localhost:8100",
     preflightContinue: false,
 };
-  app.use(cors(options));
+app.use(cors(options));
 
 app.use('/auth', auth);
 app.use('/home', home);
 app.use('/workspaces', workspace);
 app.use('/channels', channel);
 
-app.listen(3001)
-
 export { app }
+
+app.listen(3000, () => console.log("Server started"))
+
