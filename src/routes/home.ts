@@ -100,9 +100,9 @@ let joinWorkspace = ({headers: {tkn, workspace_id}}:Request, res:Response) => {
 
 let AllWorkspaces = ({headers: {tkn}}:Request, res:Response) => {
     let user = usersReadByFile.find((user) => user.token === tkn);
-    let userWorkspacesName: {id:string, name:string}[] = [];
-    user!.workspacesList!.forEach(workspaceId => workspacesReadByFile.find(item => {item.id === workspaceId && userWorkspacesName.push({id:item.id, name: item.name})}));
-    res.status(200).json(userWorkspacesName);
+    let userWorkspaces: {id:string, name:string}[] = [];
+    user!.workspacesList!.forEach(workspaceId => workspacesReadByFile.find(item => {item.id === workspaceId && userWorkspaces.push({id:item.id, name: item.name})}));
+    res.status(200).json(userWorkspaces);
 }
 
 function readFile(filePath:string)  {

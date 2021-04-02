@@ -54,7 +54,7 @@ let login = ({headers: {email, password}}:Request, res:Response) => {
             let token = uidgen.generateSync();
             user.token = token;
             updateFile(usersReadByFile, usersPath);
-            res.status(200).json({token, message: `Welcome ${user.username}`});
+            res.status(200).json({token, username: user.username});
         }else{
             res.status(400).json({message: "Incorrect password!"});
         }
@@ -64,6 +64,7 @@ let login = ({headers: {email, password}}:Request, res:Response) => {
 }
 
 let logout = ({headers: {tkn}}:Request, res:Response)=> {
+    console.log("TOKEN LOGOUT", tkn)
     let user = usersReadByFile.find(user => user.token === tkn);
     user && (user.token = '', updateFile(usersReadByFile, usersPath), res.status(200).json({message: "Succesfully logged out!"})) ||
     res.status(418).json({message: `No user logged in associated with this token.`});
