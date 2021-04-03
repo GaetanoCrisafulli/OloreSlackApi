@@ -38,7 +38,7 @@ let errorHandler = (req:Request, res:Response, next:NextFunction) => {
 //SE L'UTENTE NE AVEVA GIA' UNO, QUANDO RILOGGA VIENE SOVRASCRITTO
 let register = ({body: {username, email, password}}:Request, res:Response) => {
     let user = usersReadByFile.find(user => user.email === email);
-    if(!user){
+    if(user == undefined){
         usersReadByFile.push({token: '', email, username, password, workspacesList: []});
         updateFile(usersReadByFile, usersPath);
         res.status(200).json({message: `User ${username} registered`});
@@ -64,7 +64,6 @@ let login = ({headers: {email, password}}:Request, res:Response) => {
 }
 
 let logout = ({headers: {tkn}}:Request, res:Response)=> {
-    console.log("TOKEN LOGOUT", tkn)
     let user = usersReadByFile.find(user => user.token === tkn);
     user && (user.token = '', updateFile(usersReadByFile, usersPath), res.status(200).json({message: "Succesfully logged out!"})) ||
     res.status(418).json({message: `No user logged in associated with this token.`});
@@ -94,7 +93,8 @@ let deleteAccount = ({headers: {email}}:Request, res:Response) => {
 
 let getEmail = ({headers: {tkn}}:Request, res:Response) => {
     let user = usersReadByFile.find(user => user.token === tkn);
-    user && res.status(200).json(user.email) || 
+    console.log(user?.email)
+    user && res.status(200).json({message: user.email}) || 
     res.status(404).json({message: "This token is not associated to any email."});
 }
 

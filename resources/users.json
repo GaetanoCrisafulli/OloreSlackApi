@@ -9,7 +9,7 @@
     ]
   },
   {
-    "token": "LnxbErqP4ZNDeL6u9AY6Xf",
+    "token": "",
     "email": "panetty@gmail.com",
     "username": "Panetty",
     "password": "stomentendo",
@@ -41,5 +41,51 @@
     "workspacesList": [
       "Prova1"
     ]
+  },
+  {
+    "token": "",
+    "email": "m@r.it",
+    "username": "MozzarelottoRipieno",
+    "password": "prova",
+    "workspacesList": []
+  },
+  {
+    "token": "",
+    "email": "pontifex@oloregast.kk",
+    "username": "pontefice",
+    "password": "pontefice",
+    "workspacesList": []
+  },
+  {
+    "token": "",
+    "email": "pontifex@oloregast.it",
+    "username": "MVRS",
+    "password": "oloregast",
+    "workspacesList": []
+  },
+  {
+    "token": "",
+    "email": "best@freestyle.it",
+    "username": "MassimoTroisi",
+    "password": "massimo",
+    "workspacesList": []
+  },
+  {
+    "token": "8aPy3dpRz1PPcRYb6EJcEg",
+    "email": "mathilde@tantot.fr",
+    "username": "MathildeTantot",
+    "password": "tantot",
+    "workspacesList": [
+      "QCgAjwZrWt5CWuNioKNvBM",
+      "Prova1",
+      "U6z9aQb49BSewtrxqAejUL"
+    ]
+  },
+  {
+    "token": "",
+    "email": "natalee@007.com",
+    "username": "Natalee",
+    "password": "natalee",
+    "workspacesList": []
   }
 ]

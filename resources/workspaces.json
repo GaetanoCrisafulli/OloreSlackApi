@@ -10,7 +10,8 @@
       "nellotaver@gmail.com",
       "test@test.test",
       "andrea@hakimi.it",
-      "maestro@gskianto.na"
+      "maestro@gskianto.na",
+      "mathilde@tantot.fr"
     ]
   },
   {
@@ -43,7 +44,19 @@
       "MC19r6m8utaT9HgkisRuJw"
     ],
     "usersList": [
-      "nellotaver@gmail.com"
+      "nellotaver@gmail.com",
+      "mathilde@tantot.fr"
+    ]
+  },
+  {
+    "id": "QCgAjwZrWt5CWuNioKNvBM",
+    "name": "ProvaWorkspace",
+    "channelsList": [
+      "M3DkMPiuYpTEGEc7L9ua5x",
+      "DmvSohrb2Zs48btvJGVC7i"
+    ],
+    "usersList": [
+      "mathilde@tantot.fr"
     ]
   }
 ]
