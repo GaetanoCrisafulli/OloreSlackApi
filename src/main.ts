@@ -7,6 +7,8 @@ import workspace from './routes/workspace'
 import channel from './routes/channel'
 let app = express();
 
+
+
 const options: cors.CorsOptions = {
     allowedHeaders: [
       'Origin',
@@ -25,7 +27,7 @@ const options: cors.CorsOptions = {
     ],
     credentials: true,
     methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
-    origin: "http://localhost:8100",
+    origin: "*",
     preflightContinue: false,
 };
 app.use(cors(options));

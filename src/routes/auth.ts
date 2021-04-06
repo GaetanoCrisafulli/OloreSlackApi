@@ -93,9 +93,12 @@ let deleteAccount = ({headers: {email}}:Request, res:Response) => {
 
 let getEmail = ({headers: {tkn}}:Request, res:Response) => {
     let user = usersReadByFile.find(user => user.token === tkn);
-    console.log(user?.email)
-    user && res.status(200).json({message: user.email}) || 
-    res.status(404).json({message: "This token is not associated to any email."});
+    if(user){
+        return res.status(200).json({message: user.email})
+    }else{
+        return res.status(404).json({message: "This token is not associated to any email."});
+    }
+    
 }
 
 function readFile(filePath:string)  {

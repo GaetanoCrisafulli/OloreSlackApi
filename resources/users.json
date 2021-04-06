@@ -9,7 +9,7 @@
     ]
   },
   {
-    "token": "",
+    "token": "MKk1aBmWvZL6NVqBwiEycZ",
     "email": "panetty@gmail.com",
     "username": "Panetty",
     "password": "stomentendo",
@@ -44,30 +44,9 @@
   },
   {
     "token": "",
-    "email": "m@r.it",
-    "username": "MozzarelottoRipieno",
-    "password": "prova",
-    "workspacesList": []
-  },
-  {
-    "token": "",
-    "email": "pontifex@oloregast.kk",
-    "username": "pontefice",
-    "password": "pontefice",
-    "workspacesList": []
-  },
-  {
-    "token": "",
     "email": "pontifex@oloregast.it",
     "username": "MVRS",
     "password": "oloregast",
-    "workspacesList": []
-  },
-  {
-    "token": "",
-    "email": "best@freestyle.it",
-    "username": "MassimoTroisi",
-    "password": "massimo",
     "workspacesList": []
   },
   {
@@ -80,12 +59,5 @@
       "Prova1",
       "U6z9aQb49BSewtrxqAejUL"
     ]
-  },
-  {
-    "token": "",
-    "email": "natalee@007.com",
-    "username": "Natalee",
-    "password": "natalee",
-    "workspacesList": []
   }
 ]
