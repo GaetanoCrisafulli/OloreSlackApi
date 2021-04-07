@@ -139,6 +139,14 @@ let deleteMessage = ({ headers: { tkn, channel_id, message_id } }: Request, res:
     res.status(404).json({message: "Message not found"})
 }
 
+let getChannelPrivacy = ({headers: {channel_id}}:Request, res:Response) => {
+    let channel = channelsReadByFile.find(channel => channel.id === channel_id);
+    if(channel){
+        return res.status(200).json({privacy: channel.private});
+    }
+    res.status(404).json({message: "Channel not found."});
+}
+
 function readFile(filePath: string) {
     let rawdata = fs.readFileSync(filePath);
     let container = JSON.parse(rawdata.toString());
@@ -154,6 +162,7 @@ router.get('/', reloadFile, getChannelName);
 router.get("/messages", reloadFile, getAllMessages);
 router.get("/users", reloadFile, getAllUsers);
 router.get("/users/user", reloadFile, getUserName);
+router.get("/privacy", reloadFile, getChannelPrivacy)
 
 router.post("/messages", reloadFile, body("body.content").isEmpty(), errorsHandler, createMessage);
 router.post("/messages/replies", reloadFile, replyMessage);
