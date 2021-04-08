@@ -59,7 +59,14 @@
     "private": false,
     "usersList": [
       "nellotaver@gmail.com",
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test"
     ],
     "messagesList": []
   },
@@ -69,7 +76,14 @@
     "private": false,
     "usersList": [
       "nellotaver@gmail.com",
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test",
+      "test@test.test"
     ],
     "messagesList": []
   },
@@ -79,7 +93,8 @@
     "private": false,
     "usersList": [
       "nellotaver@gmail.com",
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test"
     ],
     "messagesList": []
   },
@@ -89,7 +104,8 @@
     "private": false,
     "usersList": [
       "nellotaver@gmail.com",
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test"
     ],
     "messagesList": []
   },
@@ -98,16 +114,22 @@
     "name": "Test canale privato",
     "private": true,
     "usersList": [
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test",
+      "maestro@gskianto.na",
+      "nellotaver@gmail.com"
     ],
-    "messagesList": []
+    "messagesList": [
+      "CZNHV4aAY3kKr6j8HUy8uq"
+    ]
   },
   {
     "id": "M3DkMPiuYpTEGEc7L9ua5x",
     "name": "Random",
     "private": false,
     "usersList": [
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test"
     ],
     "messagesList": []
   },
@@ -116,8 +138,61 @@
     "name": "General",
     "private": false,
     "usersList": [
+      "mathilde@tantot.fr",
+      "test@test.test"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "J14uTapJz8EYJdrDRqGWaP",
+    "name": "ProvaCreazioneCanalePubblico",
+    "private": false,
+    "usersList": [
+      "nellotaver@gmail.com",
+      "test@test.test",
+      "andrea@hakimi.it",
+      "maestro@gskianto.na",
       "mathilde@tantot.fr"
     ],
+    "messagesList": []
+  },
+  {
+    "id": "9DtVuo5r1tWUCTo5LyPyJj",
+    "name": "Channel Privato ",
+    "private": true,
+    "usersList": [],
+    "messagesList": []
+  },
+  {
+    "id": "SAvk9W49nNufTiEBdT43J4",
+    "name": "Canale di Mathilde",
+    "private": true,
+    "usersList": [],
+    "messagesList": []
+  },
+  {
+    "id": "JK553JQ4jVFtwPtWVFSVC5",
+    "name": "Random",
+    "private": false,
+    "usersList": [
+      "test@test.test"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "AyNcyQiMeKmALhCz41onpx",
+    "name": "General",
+    "private": false,
+    "usersList": [
+      "test@test.test"
+    ],
+    "messagesList": []
+  },
+  {
+    "id": "MkeKWjeAUTkPfh638iVqsC",
+    "name": "Prova",
+    "private": true,
+    "usersList": [],
     "messagesList": []
   }
 ]

@@ -5,7 +5,11 @@
     "channelsList": [
       "idrandomprova",
       "idgeneraleprova",
-      "idcanaleprivato"
+      "idcanaleprivato",
+      "J14uTapJz8EYJdrDRqGWaP",
+      "9DtVuo5r1tWUCTo5LyPyJj",
+      "SAvk9W49nNufTiEBdT43J4",
+      "MkeKWjeAUTkPfh638iVqsC"
     ],
     "usersList": [
       "nellotaver@gmail.com",
@@ -35,7 +39,8 @@
     ],
     "usersList": [
       "nellotaver@gmail.com",
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test"
     ]
   },
   {
@@ -47,7 +52,8 @@
     ],
     "usersList": [
       "nellotaver@gmail.com",
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test"
     ]
   },
   {
@@ -58,7 +64,19 @@
       "DmvSohrb2Zs48btvJGVC7i"
     ],
     "usersList": [
-      "mathilde@tantot.fr"
+      "mathilde@tantot.fr",
+      "test@test.test"
+    ]
+  },
+  {
+    "id": "MeS7XYf9ZYFUDMRBeZhduy",
+    "name": "Massimo Troisi Freestyle 2",
+    "channelsList": [
+      "JK553JQ4jVFtwPtWVFSVC5",
+      "AyNcyQiMeKmALhCz41onpx"
+    ],
+    "usersList": [
+      "test@test.test"
     ]
   }
 ]

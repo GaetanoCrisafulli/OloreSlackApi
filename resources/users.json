@@ -20,12 +20,16 @@
     ]
   },
   {
-    "token": "D3TdRttp9ixgivMyXJWWo6",
+    "token": "",
     "email": "test@test.test",
     "username": "Test",
     "password": "test",
     "workspacesList": [
-      "Prova1"
+      "Prova1",
+      "U6z9aQb49BSewtrxqAejUL",
+      "QCgAjwZrWt5CWuNioKNvBM",
+      "VfuvFyLpm6HoPP1Bp99Z9N",
+      "MeS7XYf9ZYFUDMRBeZhduy"
     ]
   },
   {
@@ -54,7 +58,7 @@
     "workspacesList": []
   },
   {
-    "token": "BynSjefk3faQyvowE8P3LE",
+    "token": "",
     "email": "mathilde@tantot.fr",
     "username": "MathildeTantot",
     "password": "tantot",

@@ -59,11 +59,12 @@ let getWorkspaceName = ({headers: {workspace_id}}:Request, res:Response) => {
 }
 
 let createChannel = ({headers: {workspace_id, tkn}, body: {channelName, privacy}}:Request, res:Response) => {
+    let privac = privacy as boolean
     let user = usersReadByFile.find(user => user.token === tkn);
     let chn_id = uidgen.generateSync();
-    let channel:Channel = {id: chn_id, name: channelName, private: privacy, usersList: [], messagesList: []};
+    let channel:Channel = {id: chn_id, name: channelName, private: privac, usersList: [], messagesList: []};
     let workspace = workspacesReadByFile.find(({id}) => id === workspace_id);
-    if(channel.private){
+    if(privac){
         channel.usersList.push(String(user!.email));
     }else{
         workspace?.usersList.forEach(user => channel.usersList.push(user));
